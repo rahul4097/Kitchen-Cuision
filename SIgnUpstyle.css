@@ -49,21 +49,16 @@ ul .deco a {
     max-width: 1335px;
     margin: -4vh 4vh;
 }
-h1{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    font-weight: 525;
-    font-style: italic;
-}
 .form-background{
-    width: 450px;
-    height: 625px;
+    width: 28.125rem;
+    height: 39.0625rem;
     border-radius: 5px;
+    top: 20vh;
+    position: absolute;
     background: transparent;
     border-style: ridge;
     border-width: 1px;
-    margin: 21vh 70vh;
+    margin: 0vh 70vh;
 }
 h2{
     justify-content: center;
