@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.527)),url( "https://b.zmtcdn.com/web/about/48fc8d7806d6a947fd041a8a1cf83bac1563875757.png");
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+}
+header h1{
+    color: white;
+    margin-top: -3rem;
+    font-size: 2rem;
+    top: 3rem;
+    margin-left: 10rem;
+    position: relative;
+    font-family: system-ui;
+    font-weight: 1000;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 4vh;
+    font-size: 1.3rem;
+    padding: 1rem 15rem;
+}
+ul li{
+    display: inline; 
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+ul .under a{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+ul li a:hover{
+    background-color: #414040;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+}
+.logo img{
+    float: left;
+    width: 125px;
+    height: 125px;
+    margin: 3rem 1vh;
+}
+header .container h2{
+    color: white;
+    display: grid;
+    place-items: center;
+    position: relative;
+    margin-top: 43rem;
+    font-size: 4rem;
+    font-weight: 10;
+    font-family: 'circular';
+}
+header .container h6{
+    color: rgb(223, 220, 220);
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+}
+
+.mySlides{
+    place-items: center;
+    padding: 0% 0%;
+    margin-right: 8rem;
+    margin-left: 8%;
+    border-radius: 12px;
+    margin-top: 6.3rem;
+    margin-bottom: 11rem;
+    width: 80%;
+    height: 53%;
+}
+.left{
+    position: absolute;
+    top: 78rem;
+    left: 3%;
+    width: 2.5rem;
+    transform: translate(0%,-50%);
+    height: 2.5rem;
+    border-radius: 100%;
+    cursor: pointer
+}
+.right{
+    cursor: pointer;
+    position: absolute;
+    top: 78rem;
+    right: 8%;
+    width: 2.5rem;
+    transform: translate(0%,-50%);
+    height: 2.5rem;
+    border-radius: 100%
+}
+.history{
+    padding: 13rem -1rem;
+}
+  label{
+    font-size: 3rem;
+    color: black;
+    text-decoration: underline;
+    margin: 6rem;
+}
+.history p{
+    color: black;
+    width: 35rem;
+    height: 100%;
+    font-size: 1.3rem;
+    padding: 0rem 1rem;
+    font-family: emoji;
+    margin: 5rem;
+    font-weight: 100;
+    text-decoration: none;
+}
+ img{
+    width: 44%;
+    float: right;
+    margin-top: -29rem;
+    border-radius: 15px;
+}
+footer{
+    height: 25rem;                                                                          
+   background: white;   
+   
+}
+.bottom{
+    width: 84.3rem;
+    height: 25rem;
+    background:#f9f9f9;
+}
+ p{
+    font-size: 2rem;
+    font-weight: 1000;
+    padding: 2rem 13rem;
+    color: black;
+    font-family: system-ui;
+    text-decoration: underline;
+ }
+th{
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+}
+td{
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    text-align: center;
+    opacity: 0.7;
+}
+td a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+td a:hover{
+    color: black;
+    text-decoration: underline;
+}
+h4{
+    float: right;
+    padding: 0rem 14rem;
+    margin-top: -5rem;
+}
+h4 input{
+    width: 14rem;
+    height: 1.8rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+button{
+    width: 6rem;
+    height: 1.7rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 4.9rem;
+    margin-top: 0.5rem;
+    display: inherit;
+    transition: 0.2s ease;
+}
+button:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #c5c5c5;
+}
+.fa-brands{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.store{
+    width: 53%;
+    height: 50%;
+    border-radius: inherit;
+    margin: -1vh 0vh;
+    margin-right: 7vh;
+}
+
+
+
+
+
+
+
+
+
+
+
